@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LABORATÓRIO DE DESENVOLVIMENTO - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h1>Portfólio</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Portfólio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html#contato" class="nav-link">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h2 class="hero-title">Olá, eu sou o Thiago Henrique</h2>
+                <p class="hero-subtitle">Estudante de Engenharia de Software</p>
+                <div class="hero-description">
+                    <p>Tenho 20 anos, sou estudante de Engenharia de Software na PUC Minas, atualmente no 4º período do curso. Tenho paixão por tecnologia, desenvolvimento de sistemas e pela constante evolução do mundo digital.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <h3 class="section-title">Meus Projetos</h3>
+                <div class="projects-grid">
+                    <div class="card fade-in">
+                        <div class="card-image">
+                            <img src="images/raspagem.png" alt="" >
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">Raspagem de dados Juridicos</h4>
+                            <p class="card-description">Durante o meu estágio na Sinesys, desenvolvi um código utilizando a biblioteca selenium do python, onde 
+                                o sistema entrava com a conta do usuário no sistema juridico e raspava os dados referentes aos seus prazos para jogar os dados em um banco de dados de um intranet jurídico
+                            </p>
+                            <div class="card-tags">
+                                <span class="tag">Python</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/quelcaramel.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">QuelCaramel</h4>
+                            <p class="card-description">Quel caramel, foi um sistema fullstack desenvolvido como uma loja de doces e controle de estoque para auxiliar uma vendedora de doces a gerenciar 
+                                o seu empreendimento e facilitar o acesso aos clientes
+                            </p>
+                            <div class="card-tags">
+                                <span class="tag">Html</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">PHP</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/biologuia.png" alt="" >
+                        </div>
+                        <div class="card-content">
+                            <h4 class="card-title">Biologuia</h4>
+                            <p class="card-description">Desenvolvi, junto a um grupo de colegas um blog de biologia, com quizes e formas divertidas para auxiliar alunos que pretendem estudar e entender um pouco sobre biologia</p>
+                            <div class="card-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Thiago Henrique Lacerda Ferreira. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
